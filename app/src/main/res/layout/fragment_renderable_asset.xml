@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="2dp"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp"
+    android:background="@android:color/transparent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintParent"
+        android:layout_width="180dp"
+        android:layout_height="180dp">
+
+        <ImageView
+            android:id="@+id/imageBackground"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:textAppearance="?attr/textAppearanceListItem"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/constraintParent"
+            app:layout_constraintStart_toStartOf="@+id/constraintParent"
+            app:layout_constraintTop_toTopOf="@+id/constraintParent"
+            tools:background="@drawable/gradient_2" />
+
+        <ImageView
+            app:layout_constraintEnd_toEndOf="@+id/textTitle"
+            app:layout_constraintStart_toStartOf="@+id/textTitle"
+            app:layout_constraintBottom_toBottomOf="@+id/textTitle"
+            app:layout_constraintTop_toTopOf="@+id/textTitle"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/blockbertholdconbq_regular_euro"
+            android:textColor="@color/white"
+            android:padding="4dp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:layout_margin="8dp"
+            android:gravity="bottom|center_horizontal"
+            android:textAppearance="?attr/textAppearanceListItem"
+            app:layout_constraintEnd_toEndOf="@+id/constraintParent"
+            app:layout_constraintStart_toStartOf="@+id/constraintParent"
+            app:layout_constraintBottom_toBottomOf="@+id/constraintParent"
+            tools:text="some title" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
