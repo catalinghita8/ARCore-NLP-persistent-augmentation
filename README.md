@@ -21,3 +21,6 @@ Also, with the use of Cloud Anchors, the augmentated experience is persistent th
 ## Module C. Persistent AR experience
 ![Module C](https://i.imgur.com/91mkiZs.jpg)
 
+Limitations:
+- 24h persistence limit for anchors imposed by Cloud Anchors API
+- Local persistence of 3D room
