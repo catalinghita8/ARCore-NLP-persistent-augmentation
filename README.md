@@ -24,7 +24,7 @@ Also, with the use of Cloud Anchors, the augmentated experience is persistent th
 - Make sure you can run the app on a physical device that supports ARCore. You can check the devices available [here](https://developers.google.com/ar/discover/supported-devices).
 - Install the app and provide Audio permissions like below:
 
-![Provide Audio permissions](https://imgur.com/a/fEm92fU)
+![Provide Audio permissions](https://i.imgur.com/62Y7gRS.jpeg)
 
 - Enjoy!
 
