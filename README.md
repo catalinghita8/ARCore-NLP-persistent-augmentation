@@ -5,7 +5,7 @@ This is a sample project that allows users to match voice commands to 3D models 
 Also, with the use of Cloud Anchors, the augmentated experience is persistent thus allowing the user to add models to a 3D room and then retrieve them at any time. The 3D room contains details like assets ids (that correspond to Google Poly assets) and cloud anchor ids thus allowing to recover the state of several models throughout the room.
 
 # Demo
-[![Watch the video](https://i.imgur.com/bF0KSn6.jpg)](https://streamable.com/sdjsec)
+[![Watch the video](https://i.imgur.com/bF0KSn6.jpg)](https://www.youtube.com/watch?v=ecx2hxhGqbg)
 
 # Architecture details
 
