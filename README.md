@@ -12,7 +12,7 @@ Also, with the use of Cloud Anchors, the augmentated experience is persistent th
 # 1. Demo
 [![Watch the video](https://i.imgur.com/bF0KSn6.jpg)](https://www.youtube.com/watch?v=ecx2hxhGqbg)
 
-# 2. Instalation tutorial
+# 2. Installation tutorial
 - Download or clone the repository
 - Add your own Google Poly API key in the Manifest.xml file:
   ```xml
